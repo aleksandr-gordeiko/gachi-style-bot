@@ -3,17 +3,15 @@ import { connect, closeConnection } from './db';
 
 import reply from './middlewares/reply';
 import error from './middlewares/error';
-// Import other middlewares
 
-// Import commands
+import inline from './inline';
 
-const bot = new Telegraf(process.env.BOT_API_TOKEN);
+const bot: Telegraf = new Telegraf(process.env.BOT_API_TOKEN);
 
 bot.use(reply);
 bot.use(error);
-// Use other middlewares
 
-// Bind commands
+bot.on('inline_query', inline);
 
 process.once('SIGINT', () => {
   closeConnection()
