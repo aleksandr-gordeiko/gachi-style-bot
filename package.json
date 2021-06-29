@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config build/index.js dotenv_config_path=./config.env"
+    "dev": "nodemon -r dotenv/config build/index.js dotenv_config_path=./config.env",
+    "test": "node build/text_transform.js"
   },
   "keywords": [],
   "author": "Aleksandr Gordeiko",
