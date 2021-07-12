@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon -r dotenv/config build/index.js dotenv_config_path=./config.env",
-    "start": "node -r dotenv/config build/index.js dotenv_config_path=./config.env"
+    "start": "node -r dotenv/config build/index.js dotenv_config_path=./config.env",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Aleksandr Gordeiko",
