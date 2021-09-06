@@ -8,6 +8,7 @@
     "no-console": "off",
     "no-restricted-syntax": ["off", "ForOfStatement", "ForInStatement"],
     "guard-for-in": "off",
+    "no-continue": "off",
     "max-len": ["error", {"code":  120}]
   }
 }

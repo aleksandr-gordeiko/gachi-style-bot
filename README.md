@@ -5,22 +5,11 @@ master♂ in the chat
 
 #### Usage:
 Type the following text:\
-`@bot_username your text with cum or even fisting`
+`@gachistylebot Your text with *cum* or even *fisting*`
 
 And the bot will make it\
-`your text with ♂cum♂ or even ♂fisting♂`
+`Your text with ♂cum♂ or even ♂fisting♂`
 
-The full glossary can be found and modified in
-`glossary.json`
-
-E.g. if you add this:
-
-```json
-"fucking slave": [
-    "slave", "слейв"
-]
-```
-
-The bot will replace both `slave` and `слейв` to `♂fucking slave♂` 
+You got the idea. The words in `**` become framed in `♂♂`.
 
 <h4>Have fun!</h4>
